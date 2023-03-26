@@ -5,9 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>information visualization</title>
+    <link rel="stylesheet" href= "main.css">
+    <script>
+        function myFunction(){
+            
+            document.getElementById("nav-list").style.display="block";
+            document.getElementsByClassName("nav-links")[0].style.margin="0.5em 0";
+            document.getElementsByClassName("nav-links")[1].style.margin="0.5em 0";
+            document.getElementsByClassName("nav-links")[2].style.margin="0.5em 0";
+            document.getElementsByClassName("nav-links")[3].style.margin="0.5em 0";
+            document.getElementsByClassName("nav-links")[4].style.margin="0.5em 0";
+        }
+
+    </script>
+
 </head>
 <body>
-    <center><h1>18CSE301J INFORMATION VISULATIZATION</h1>
+    <div class="sidenav">
+        <a href="#" class="nav-links">Home</a>
+        <a class="nav-links" href="#" id="assign" onclick="myFunction()">Assignments</a><ol id="nav-list">
+            <li>Dataset Report</li>
+            <li>Tableau Visualisation</li>
+            <li>Python Visualisation</li>
+            <li>D3.js Visualisation</li>
+            <li>Storytelling</li>
+        </ol>
+        <a href="#" class="nav-links">Contact Me</a>
+        <a href="#" class="nav-links">Sources & References</a>
+        <a href="#" class="nav-links">Github</a>
+
+    </div>
+
+    <div class="head-wrapper">
+
+        <div class="head">
+            <h3>Excited about Data Visualisation?</h3>
+            <img class="header-animation" src="into.jpeg"></img>
+        </div>
+    </div>
+
+
+
+    <section class="story-sec">
+        <h3>Step 1: Look for a Perfect Dataset</h3>
+        <div class="story-container">
+            <div class="story-text">
+                <div class="story-heading">My Dataset..</div>
+                <p>This Dataset report provides an analysis of the mental health status of a population which shows that a significant portion of the population is struggling with mental health issues such as anxiety and depression. It concludes with addressing mental health as a crucial part of well-being and success of individuals and society as a whole.</p>
+            </div>
+            <iframe class="story-photo" src="https://drive.google.com/file/d/1c6UGOUbfjunaiJt_MAx0nrVzNDkjsKtZ/preview"  allow="autoplay"></iframe>
+        </div>
+
+        <h3>Step 2: Working with Visualisation Tools</h3>
+        <div class="story-container second">
+            <div class="story-text ">
+                <div class="story-heading">1. Tableau</div>
+                <p>Tableau is a powerful data visualization and business intelligence software tool that allows users to create interactive and intuitive visualizations, dashboards, and reports from various data sources.</p>
+            </div>
+            <div class='tableauPlaceholder' id='viz1678457262557' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' class="story-photo" src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16784566948970&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_16784566948970&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16784566948970&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1678457262557');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='800px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+            <!-- <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16784566948970&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_16784566948970&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16784566948970&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1678457262557');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 450) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+
+
+        </div>
+
+        <div class="story-container">
+            <div class="story-text">
+                <div class="story-heading">2. Python</div>
+                <p>Python has several libraries that provide robust tools for creating data visualizations, including Matplotlib, Seaborn, Plotly, and Bokeh. Matplotlib is a versatile library that can be used to create a wide range of visualizations, including line graphs, scatter plots, bar charts, and more. Seaborn is a library that builds on top of Matplotlib and provides a range of high-level interfaces for creating more complex and aesthetically pleasing visualizations.</p>
+            </div>
+            <img src="python.png" alt="" class="story-photo">
+
+
+        </div>
+        <div class="story-container second">
+            <div class="story-text ">
+                <div class="story-heading">3. D3</div>
+                <p>D3.js is a powerful JavaScript library for creating dynamic and interactive data visualizations in the browser. With D3, you can easily create a wide range of charts and graphs, such as bar charts, line charts, scatter plots, and more. To get started with D3, you'll need to prepare your data, choose a visualization type, and create an HTML file to display your visualization in the browser. D3 offers extensive documentation and examples to help you get started with data visualization using this popular library.</p>
+            </div>
+            <img src="story.svg" alt="" class="story-photo">
+
+        </div>
+        
+        <div class="story-container">
+            <div class="story-text">
+                <div class="story-heading">4. Gephi</div>
+                <p>Gephi is an open-source network analysis and visualization software tool that provides a powerful platform for exploring and analyzing complex networks, such as social networks, biological networks, and communication networks. It allows users to import data from various sources, perform advanced network analysis and visualization techniques, and create high-quality and interactive visualizations that can be customized and shared. Gephi provides a range of features and functionalities, such as network statistics, layout algorithms, and data transformation tools, that make it a popular choice for researchers, analysts, and data scientists who work with complex network data.</p>
+            </div>
+            <img src="story.svg" alt="" class="story-photo">
+
+        </div>
+    </section>
+
+    <div class="card-wrapper">
+        <div class="card">
+            <div class="card-content">
+                <img src="Poorvi_Image.jpeg" alt="" class="card-image">
+                <div class="info">
+                    <div class="name">
+                        <h4>Poorvi Mittal</h4>
+                        <small>Computer Science Engineer</small>
+                    </div>
+                    <div class="contact-info">
+                        <div class='mail'><img  src="mail.png" class="mail-icon icon"></img></i>poorvimittal12@gmail.com</div>
+                        <div class="icons">
+                            <a href='https://www.linkedin.com/in/poorvi-mittal/' class='links'><img src="li.png" alt="" class="icon"></a>
+                            <a href='https://github.com/Probably-Poorvi' class='links'><img src="gh.png" alt="" class="icon gh"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr></hr>
+        </div>
+    </div>
+
+   <div class="cube-wrapper">
+                <div class="item">
+                    <div class="cube">
+                        <div class="cube-face front">
+                            <div>
+                                <img src="Poorvi_image.jpeg" width="100%">
+                            </div>
+                        </div>
+                        <div class="cube-face back">
+                            <div>https://www.informatica.com/resources/articles/what-is-data-quality.html
+                                https://towardsdatascience.com/5-basic-data-quality-check-about-your-data-analysis-5234de90b3d3
+                                https://ourworldindata.org/mental-health
+                                https://aclanthology.org/2020.lrec-1.772.pdf</div>
+                        </div>
+                        <div class="cube-face right">
+                                    <div>Tap for links</div>
+                </div>
+                        <div         class="cube-face left">
+                    <div>left</div>
+                        </div>
+                        <div class="cube-face top">
+                    <div class="top-content"><h1>Sources</h1></div>
+                        </div>
+                    </div>
+             </div>
+
+                <div class="item">
+                    <div class="cube">
+                        <div class="cube-face front">
+                            <div>
+                                <img src="Poorvi_image.jpeg" width="100%">
+                            </div>
+                        </div>
+                        <div class="cube-face back">
+                            <div>https://www.informatica.com/resources/articles/what-is-data-quality.html
+                                https://towardsdatascience.com/5-basic-data-quality-check-about-your-data-analysis-5234de90b3d3
+                                https://ourworldindata.org/mental-health
+                                https://aclanthology.org/2020.lrec-1.772.pdf</div>
+                        </div>
+                        <div class="cube-face right">
+                                    <div>Tap for links</div>
+                </div>
+                        <div         class="cube-face left">
+                    <div>left</div>
+                        </div>
+                        <div class="cube-face top">
+                    <div class="top-content"><h1>References</h1></div>
+                        </div>
+                    </div>
+             </div>
+    </div>
+
+    
+    <!-- <h1>18CSE301J INFORMATION VISULATIZATION</h1>
     <h2 >POORVI MITTAL</h2>
     <h2>RA2011003010361</h2>
         <hr>
@@ -25,7 +190,6 @@
         <h4>1) Python Data Visualization</h4>
         <hr><br>
         <iframe class="mt-5" src="https://github.com/Probably-Poorvi/18CSE301J_RA2011003010361/blob/main/Book1.ipynb" width="800" height="600" allow="autoplay"></iframe>
-        <br><br><br><hr>
-    </center>
+        <br><br><br><hr> -->
 </body>
 </html>
