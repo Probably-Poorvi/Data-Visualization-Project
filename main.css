@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    background-image: linear-gradient(to left top, #15092b, #02142f, #001a2f, #001e2c, #002228, #032629, #082a2a, #0f2e2b, #0d3531, #0b3c37, #07433d, #024a43);
+    background-size: cover ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    opacity: 30%;
+  }
+  
+  /* The navigation menu links */
+  .nav-links{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    display: block;
+    margin: 1.8em 0;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+#nav-list{
+    color: white;
+    margin-top: 0;
+    display: none;
+  }
+
+
+  #assign{
+    margin-bottom: 0.5em;
+  }
+
+  .sidenav li{
+    padding: 0.5em 0;
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .head-wrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 220px;
+    width: 80%;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  .head h3{
+    font-size: 3.8em;
+    color: white;
+  }
+
+  .head img{
+    height: 400px;
+    width: 400px;
+    margin-left: 7em;
+
+  }
+
+
+  .story-sec{
+    margin-left: 200px;
+    /* background-color: #093245; */
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story-sec h3{
+    font-size: 3.5em;
+    color: white;
+  }
+
+  .story-container{
+    display: flex;
+    flex-direction: row;
+    margin: 4em 0;
+    margin-left: 3em;
+    align-items: center;
+    
+  }
+
+  .story-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-right: 5em;
+  }
+
+  .story-heading{
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+  }
+
+  .story-container p{
+    font-size: 1.3em;
+align-self: flex-start;  
+text-align: left;
+color: white;
+font-weight: 400;
+}
+
+  .story-photo{
+    width: 500px;
+    height: 500px;
+
+  }
+
+  .second{
+    flex-direction: column;
+  }
+
+  .icon{
+    width: 38px;
+    height: 38px;
+  }
+
+  .mail-icon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .gh{
+    width: 42px;
+    height: 42px;
+  }
+
+  .card-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 5em;
+  }
+
+
+
+
+  .card{
+    background-color:  #2c2c2e;
+    width: 50%;
+    color: white;    
+    /* margin-left: 200px; */
+    margin: auto;
+    /* padding-bottom: 0; */
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+    box-shadow:  0 0 15px 0 rgb(0 0 0 / 20%)
+}
+.card-content{
+    padding: 2em 1.5em;
+    display: flex;
+    align-items: center;
+    height: 210px;
+    justify-content: flex-start;
+
+}
+
+.card-image{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 4em;
+    margin-left: 0.8em;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.info h4{
+    margin-bottom: 0;
+    font-size: 1.8em;
+}
+
+.info small{
+    font-size: 1em;
+}
+
+.contact-info{
+    /* border: 1px solid green; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mail{
+    font-size: 1.1em;
+    /* border: 1px solid white; */
+    align-items: flex-end;
+    display: flex;
+}
+
+
+.mail-icon{
+    margin-right: 0.8em;
+    padding-top: 0.2em;
+    /* font-size: 1.2em; */
+    /* background-color: white; */
+}
+.icons{
+    margin-top: 1.5em;
+    /* border: 1px solid white; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 1.5em;
+
+}
+
+.card hr{
+    width: 100%;
+    height: 10px;
+    margin-bottom: 0;
+    background-image: linear-gradient(45deg,#f3ec78, #af4261);
+    border: none;
+}
+
+
+@media screen and (max-width:43em){
+    .card{
+        width: 90%;
+        margin-top: 8em;
+        position: relative;
+    }
+
+    .card-image{
+        width: 100px;
+        height: 100px;
+        position: absolute!important;
+        /* z-index: 1; */
+        top: -14%;
+        margin: auto;
+
+    }
+    .card-content{
+        padding: 2em 3em;
+        justify-content: center;
+        text-align: center;
+        height: 210px;
+    }
+
+    .name h4{
+        font-size: 1.6em;
+    }
+
+    .info{
+        margin-top: 1em;
+    }
+
+    .icons{
+        /* border: 2px solid red; */
+        justify-content: center;
+    }
+
+    .links{
+        margin-right: 0;
+        padding: 0 1em;
+    }
+}  
+
+@media screen and (min-width: 44em) and (max-width: 64em) {
+    .card{
+        width: 60%;
+    }
+
+    .card-content{
+        justify-content: space-evenly;
+    }
+    
+
+    .card-image{
+        width: 110px;
+        height: 110px;
+        margin-right: 2em;
+        margin-left: initial;
+    }
+}
+
+
+:root {
+	/* 	Set cube size */
+	--w: 256px;
+	--h: 256px;
+
+	/* 	Other variables */
+	--start-pos: translateZ(-8rem) rotateX(330deg) rotateY(-45deg);
+	--end-pos: translateZ(-8rem) rotateY(180deg);
+	--anim-duration: 350ms;
+	--half-w: calc(var(--w) / 2);
+	--half-h: calc(var(--h) / 2);
+}
+
+/* Base Styles */
+
+/* section {
+	position: relative;
+	width: 100%;
+	padding: 32px 0 64px;
+	background-image: linear-gradient(
+		110deg,
+		hsl(240deg 12% 89%) 0%,
+		hsl(240deg 16% 88%) 39%,
+		hsl(240deg 19% 86%) 61%,
+		hsl(240deg 21% 85%) 100%
+	);
+} */
+
+
+
+
+h1 {
+	font-size: 32px;
+}
+
+p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+}
+.cube-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-left: 200px;
+   margin-top: 8em;
+   margin-bottom: 5em;
+}
+
+
+/* 3D Cube Styles */
+
+.item {
+	width: var(--w);
+	height: var(--h);
+    margin: 2em 5em;
+}
+
+.cube {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transform: scale(0.9) var(--start-pos);
+	transition: transform var(--anim-duration);
+	/* 	background-color: rgba(40, 40, 40, 0.1); */
+}
+
+.item:hover .cube {
+	transform: var(--end-pos) scale(1);
+}
+
+.cube-face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.cube-face div {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.front img {
+	opacity: 0.8;
+}
+
+.front {
+	transform: rotateY(0deg) translateZ(var(--half-w));
+	background: linear-gradient(
+		122deg,
+		rgba(232, 232, 237, 0.9) 0%,
+		rgba(218, 218, 226, 0.9) 100%
+	);
+}
+.right {
+	transform: rotateY(90deg) translateZ(var(--half-w));
+	background: linear-gradient(
+		122deg,
+		rgba(202, 204, 212, 0.9) 0%,
+		rgba(199, 202, 213, 0.9) 100%
+	);
+}
+.back {
+	transform: rotateY(180deg) translateZ(var(--half-w));
+	background: linear-gradient(
+		122deg,
+		rgba(199, 202, 213, 0.9) 0%,
+		rgba(202, 204, 212, 0.9) 100%
+	);
+}
+.left {
+	transform: rotateY(-90deg) translateZ(var(--half-w));
+	background: linear-gradient(
+		122deg,
+		rgba(218, 218, 226, 0.9) 0%,
+		rgba(232, 232, 237, 0.9) 100%
+	);
+}
+.top {
+	width: var(--w);
+	height: var(--w);
+	transform: rotateX(90deg) translateZ(var(--half-w));
+	background: linear-gradient(
+		122deg,
+		rgba(238, 239, 242, 0.9) 0%,
+		rgba(231, 232, 236, 0.9) 100%
+	);
+}
+
+.top-content {
+	transform: rotateZ(-45deg);
+}
+
+@media screen and (max-width: 1150px) {
+	.cubes-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.cubes-grid {
+		grid-template-columns: 1fr;
+	}
+}
+body {
+    background:black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg);
+    animation: stars 205s linear alternate;
+  }
+  
