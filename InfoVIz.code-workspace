@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/font-awesome-4.7.0/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "InfoVIz"
+	}
+}
